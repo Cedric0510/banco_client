@@ -21,6 +21,7 @@ import DetailClientAdminPage from './components/pages/DetailClientAdminPage';
 import UpdateClientAdminPage from './components/pages/UpdateClientAdminPage';
 import ConditionsPage from './components/pages/ConditionsPage';
 import LegalNoticePage from './components/pages/LegalNotice';
+import TestPage from './components/TestPage';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
   {
     path:"/legal-notice",
     element: <LegalNoticePage />
+  },
+  {
+    path:"/test",
+    element: <TestPage />
   },
 ]);
 

@@ -10,8 +10,8 @@ function NavBarTemplate({link1, value1,link2, value2,link3, value3,link4, value4
         <Container>
           <Navbar.Brand alt="Accueil"> <Link to="/"> <img src='/logo.svg' /> </Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav>
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
+            <Nav id="navBar" >
               <Nav.Link ><Link to={link1} > {value1} </Link></Nav.Link>
               <Nav.Link><Link to={link2} > {value2} </Link></Nav.Link>
               <Nav.Link><Link to={link3} > {value3} </Link></Nav.Link>
