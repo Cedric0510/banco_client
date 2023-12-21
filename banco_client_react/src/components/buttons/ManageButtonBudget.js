@@ -6,6 +6,6 @@ function ManageButtonBudget() {
             <Button variant="primary" href="/forecast">Gérer mon budget</Button>{' '}
         </>
     )
-}
+};
 
 export default ManageButtonBudget;
