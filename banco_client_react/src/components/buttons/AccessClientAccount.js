@@ -6,6 +6,6 @@ function AccessClientAccountButton() {
             <Button variant="primary" href="/account">Accéder au compte client</Button>{' '}
         </>
     )
-}
+};
 
 export default AccessClientAccountButton;

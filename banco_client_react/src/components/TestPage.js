@@ -5,7 +5,9 @@ import ManageButtonBudget from "./buttons/ManageButtonBudget";
 import BackAdminButton from "./buttons/BackAdminButton";
 import AccessClientAccountButton from "./buttons/AccessClientAccount";
 import UpdateClientButton from "./buttons/UpdateClientButton";
-import DeleteClientButton from "./buttons/DeleteClientButton";
+// import DeleteClientButton from "./buttons/DeleteClientButton";
+import TestButton from "./buttons/TestButton";
+
 
 function TestPage(){
 
@@ -18,7 +20,8 @@ function TestPage(){
         <BackAdminButton />
         <AccessClientAccountButton />
         <UpdateClientButton />
-        <DeleteClientButton />
+        {/* <DeleteClientButton /> */}
+        <TestButton />
         <p>Testez ici votre élement</p>
         </>
     )
