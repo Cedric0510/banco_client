@@ -1,5 +1,5 @@
 import NavBarHome from "../navBars/NavBarHome";
-
+import ConnectionForm from "../forms/FormulaireDeConnexion/ConnectionForm";
 
 function HomePage(){
     // là j'écris ma logique
@@ -9,7 +9,7 @@ function HomePage(){
         <>
         <NavBarHome />
           <h1>Welcome Home Page</h1>
-        
+        <ConnectionForm />
         </>   
     )
 };
