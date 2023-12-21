@@ -9,6 +9,7 @@ function HomePage(){
         <>
         <NavBarHome />
           <h1>Welcome Home Page</h1>
+        
         </>   
     )
 };
