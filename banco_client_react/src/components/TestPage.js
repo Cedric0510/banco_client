@@ -1,5 +1,5 @@
 //import ici votre élément
-
+import ConnectionForm from "./forms/FormulaireDeConnexion/ConnectionForm";
 import NavBarTemplate from "./navBars/NavBarTemplate";
 
 function TestPage(){
@@ -7,7 +7,7 @@ function TestPage(){
     return(
         <>
         <h1>Page de test</h1>
-        <NavBarTemplate />
+        <ConnectionForm />
         <p>Testez ici votre élement</p>
         </>
     )
