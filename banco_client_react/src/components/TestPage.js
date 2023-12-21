@@ -4,6 +4,7 @@ import MyBudgetButton from "./buttons/MyBudgetButton";
 import ManageButtonBudget from "./buttons/ManageButtonBudget";
 import BackAdminButton from "./buttons/BackAdminButton";
 import AccessClientAccountButton from "./buttons/AccessClientAccount";
+import UpdateClientButton from "./buttons/UpdateClientButton";
 
 function TestPage(){
 
@@ -15,6 +16,7 @@ function TestPage(){
         <ManageButtonBudget />
         <BackAdminButton />
         <AccessClientAccountButton />
+        <UpdateClientButton />
         <p>Testez ici votre élement</p>
         </>
     )
