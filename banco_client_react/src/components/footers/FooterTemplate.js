@@ -3,21 +3,26 @@ import AccordionItem from 'react-bootstrap/AccordionItem'
 import { Link } from "react-router-dom";
 
 
-function FooterTemplate({ link1, value1, link2, value2, link3, value3, link4, value4, link5, value5, link6, value6 }) {
+function FooterTemplate({ link1, value1, link2, value2, link3, value3, link4, value4, link5, value5, link6, value6, value7 }) {
     return (
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey={['0']}>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>B.Bank</Accordion.Header>
+                <Accordion.Header>B.BANK</Accordion.Header>
                 <Accordion.Body>
-                    <Accordion.Div>
+                    <div>
                         Nous contacter :
-                    </Accordion.Div>
-                    <Accordion.Div>
+                    </div>
+                    <div>
                         Adresse Banco
-                    </Accordion.Div>
+                    </div>
                     <Link to="/mailto">Email</Link>
                     <Link to="/conditions">Conditions d'utilisation</Link>
                     <Link to="/legal-notice">Mentions légales</Link>
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+                <Accordion.Header> {value7} </Accordion.Header>
+                <Accordion.Body>
                     <Link to={link1} > {value1} </Link>
                     <Link to={link2} > {value2} </Link>
                     <Link to={link3} > {value3} </Link>

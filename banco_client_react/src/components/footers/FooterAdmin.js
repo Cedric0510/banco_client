@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function FooterAdmin(){
     return(
         <>
-        <FooterTemplate value1={"SE DECONNECTER"} link1={"/"} />
+        <FooterTemplate value1={"Se Déconnecter"} link1={"/"} value7={"ADMIN"} />
         </>
     )
 };
