@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBarHome(){
     return(
         <>
-        <NavBarTemplate value4={"SE CONNECTER"} link4={"/"} value3={"QUI NOUS SOMMES"} link3={"/about"} />
+        <NavBarTemplate NavValue6={"SE CONNECTER"} NavLink6={"/"} NavValue5={"QUI NOUS SOMMES"} NavLink5={"/about"} />
         </>
     )
 };

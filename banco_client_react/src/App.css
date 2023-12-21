@@ -6,10 +6,16 @@ h1{
   text-align: center;
 }
 
+
+
 a{
   color: #FD7E14;
   text-decoration: none;
 }
 a :hover{
   color: #F8F9FA;
+}
+
+.signupInvitation{
+  text-align: center;
 }
