@@ -10,10 +10,10 @@ function FooterTemplate({ link1, value1, link2, value2, link3, value3, link4, va
                 <Accordion.Header>B.BANK</Accordion.Header>
                 <Accordion.Body>
                     <div>
-                        Nous contacter :
+                        Nous contacter : b.bank@email
                     </div>
                     <div>
-                        Adresse Banco
+                        10 rue de la Bourse 34 500 Béziers
                     </div>
                     <Link to="/mailto">Email</Link>
                     <Link to="/conditions">Conditions d'utilisation</Link>
