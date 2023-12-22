@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function FooterClient(){
     return(
         <>
-        <FooterTemplate value1={"Mon Compte"} link1={"/account"} value2={"Mes Transactions"} link2={"/details"} value3={"MON BUDGET"} link3={"/budget"} value4={"Mon Prévisionnel"} link4={"/forecast"} value5={"Virements"} link5={"/transfert"} value6={"Se Déconnecter"} link6={"/"} />
+        <FooterTemplate FooterValue1={"Mon Compte"} FooterLink1={"/account"} FooterValue2={"Mes Transactions"} FooterLink2={"/details"} FooterValue3={"MON BUDGET"} FooterLink3={"/budget"} FooterValue4={"Mon Prévisionnel"} FooterLink4={"/forecast"} FooterValue5={"Virements"} FooterLink5={"/transfert"} FooterValue6={"Se Déconnecter"} FooterLink6={"/"} />
         </>
     )
 };

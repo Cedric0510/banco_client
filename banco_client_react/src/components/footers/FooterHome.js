@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function FooterHome(){
     return(
         <>
-        <FooterTemplate value1={"Qui nous sommes"} link1={"/about"} value2={"Se Connecter"} link2={"/"} />
+        <FooterTemplate FooterValue1={"Qui nous sommes"} FooterLink1={"/about"} FooterValue2={"Se Connecter"} FooterLink2={"/"} />
         </>
     )
 };

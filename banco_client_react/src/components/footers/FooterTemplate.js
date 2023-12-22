@@ -3,7 +3,7 @@ import AccordionItem from 'react-bootstrap/AccordionItem'
 import { Link } from "react-router-dom";
 
 
-function FooterTemplate({ link1, value1, link2, value2, link3, value3, link4, value4, link5, value5, link6, value6}) {
+function FooterTemplate({ FooterLink1, FooterValue1, FooterLink2, FooterValue2, FooterLink3, FooterValue3, FooterLink4, FooterValue4, FooterLink5, FooterValue5, FooterLink6, FooterValue6}) {
     return (
         <Accordion defaultActiveKey={['0']}>
             <Accordion.Item eventKey="0">
@@ -30,22 +30,22 @@ function FooterTemplate({ link1, value1, link2, value2, link3, value3, link4, va
                             </div>
                             <div class="col">
                                 <div>
-                                    <Link to={link1} > {value1} </Link>
+                                    <Link to={FooterLink1} > {FooterValue1} </Link>
                                 </div>
                                 <div>
-                                    <Link to={link2} > {value2} </Link>
+                                    <Link to={FooterLink2} > {FooterValue2} </Link>
                                 </div>
                                 <div>
-                                    <Link to={link3} > {value3} </Link>
+                                    <Link to={FooterLink3} > {FooterValue3} </Link>
                                 </div>
                                 <div>
-                                    <Link to={link4} > {value4} </Link>
+                                    <Link to={FooterLink4} > {FooterValue4} </Link>
                                 </div>
                                 <div>
-                                    <Link to={link5} > {value5} </Link>
+                                    <Link to={FooterLink5} > {FooterValue5} </Link>
                                 </div>
                                 <div>
-                                    <Link to={link6} > {value6} </Link>
+                                    <Link to={FooterLink6} > {FooterValue6} </Link>
                                 </div>
                             </div>
                         </div>
