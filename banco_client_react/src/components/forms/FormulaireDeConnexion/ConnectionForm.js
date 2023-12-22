@@ -18,7 +18,7 @@ const ConnectionForm = () => {
         password: password,
       });
       localStorage.setItem("token", response.data.token);
-      // console.log(response.data)
+      console.log(response.data)
       const storedToken = localStorage.getItem("token");
       if (storedToken) {
         var base64Url = storedToken.split(".")[1];

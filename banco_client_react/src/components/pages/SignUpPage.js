@@ -1,5 +1,6 @@
 import NavBarHome from "../navBars/NavBarHome";
 import SignUpForm from "../forms/FormulaireDinscription/SignUpForm";
+import FooterHome from "../footers/FooterHome";
 
 function SignUpPage(){
     return(
@@ -7,6 +8,7 @@ function SignUpPage(){
         <NavBarHome />
         <h1>Welcome Sign Up Page</h1>
         <SignUpForm />
+        <FooterHome />
         </>
         
     )
