@@ -16,6 +16,20 @@ a :hover{
   color: #F8F9FA;
 }
 
+
+.accordion-button {
+  background-color: #212529;
+  color: #F8F9FA ;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+
 .signupInvitation{
   text-align: center;
+
 }
