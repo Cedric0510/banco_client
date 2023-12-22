@@ -6,6 +6,8 @@ h1{
   text-align: center;
 }
 
+
+
 a{
   color: #FD7E14;
   text-decoration: none;
@@ -14,9 +16,10 @@ a :hover{
   color: #F8F9FA;
 }
 
+
 .accordion-button {
-  background-color: #212529 !important;
-  color: #F8F9FA !important;
+  background-color: #212529;
+  color: #F8F9FA ;
 }
 
 .accordion-button:focus {
@@ -25,4 +28,8 @@ a :hover{
 
 .accordion-button:not(.collapsed) {
   color: #212529;
+
+.signupInvitation{
+  text-align: center;
+
 }
