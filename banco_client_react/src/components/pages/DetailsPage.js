@@ -1,4 +1,5 @@
 import NavBarClient from "../navBars/NavBarClient";
+import FooterClient from "../footers/FooterClient";
 
 
 function DetailsPage(){
@@ -6,6 +7,7 @@ function DetailsPage(){
         <>
         <NavBarClient />
         <h1>Welcome Details Page</h1>
+        <FooterClient />
         </>
     )
 };

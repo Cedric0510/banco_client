@@ -1,4 +1,5 @@
 import NavBarClient from "../navBars/NavBarClient";
+import FooterClient from "../footers/FooterClient";
 
 
 function ForecastPage(){
@@ -6,6 +7,7 @@ function ForecastPage(){
         <>
         <NavBarClient />
         <h1>Welcome ForecastPage Page</h1>
+        <FooterClient />
         </>
     )
 };
