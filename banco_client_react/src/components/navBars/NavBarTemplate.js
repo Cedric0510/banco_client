@@ -8,7 +8,7 @@ function NavBarTemplate({NavLink1, NavValue1,NavLink2, NavValue2,NavLink3, NavVa
     return (
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand alt="Accueil"> <Link to="/"> <img src='https://i.imgur.com/lUNJbPb.png' width="300" height="100"/> </Link> </Navbar.Brand>
+          <Navbar.Brand alt="Accueil"> <Link to="/"> <img src='https://i.imgur.com/lUNJbPb.png' width="130" height="40"/> </Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
             <Nav id="navBar" >
